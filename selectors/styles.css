@@ -1,0 +1,134 @@
+/*
+Exercise 1
+h1 {
+    color: blue;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+}
+
+span {
+    font-size: 200%;
+}
+*/
+
+/* Exercise 2
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 2px solid grey;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: green;
+}
+*/
+
+/*
+Exercise 3
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td,
+th {
+  padding: 0.2em;
+  text-align: left;
+}
+
+a {
+    color: orange;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p:first-child {
+    font-size: 150%;
+}
+
+p:first-child:first-line {
+    color: red;
+}
+
+tr:nth-child(2n) {
+    background-color: #333333;
+    color: white;
+}
+*/
+
+/*
+Exercise 4
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+h2 + p {
+    color: red;
+}
+
+ul.list > li {
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+*/
+
+/* Exercise 5
+*/
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+a {
+  display: block;
+  padding: 0.5em;
+}
+
+a {
+  border: 5px solid grey;
+}
+
+/* Add styles here */
+
+a[title] {
+    border-color: pink;
+}
+
+a[href*="contact"] {
+    border-color: orange;
+}
+
+a[href^="https"] {
+    border-color: green;
+}
